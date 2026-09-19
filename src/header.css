@@ -1,0 +1,17 @@
+.pokedex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dc2626;
+    color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+.pokedex-header img {
+    height: 60px;
+}
+
+.pokedex-subtitulo {
+    font-size: 1rem;
+    font-weight: 500;
+}
