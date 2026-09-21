@@ -69,19 +69,8 @@
   letter-spacing: 0.5px;
 }
 
-.type-fire {
-  background: linear-gradient(135deg, #ff7a45, #ff421d);
-  color: #ffffff;
-  box-shadow: 0 3px 8px rgba(255, 66, 29, 0.4);
-}
-
-.type-grass { background-color: #4caf50; }
-.type-water { background-color: #2196f3; }
-
-.pokemon-list {    
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-
-
-}
+/* cores dos tipos, em português, como o exercício pede */
+.type-fogo { background-color: #ff421d; color: #ffffff; }
+.type-agua { background-color: #268bf7; color: #ffffff; }
+.type-planta { background-color: #57b952; color: #ffffff; }
+.type-eletrico { background-color: #fbc02d; color: #333333; }
