@@ -1,0 +1,23 @@
+.pokedex-footer {
+    background-color: #1e293b;
+    color: #f1f5f9;
+    display: flex;
+    justify-content: space-batween;
+    align-items: cente;
+    padding: 1rem 2rem;
+}
+
+.pokedex-footer nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.pokedex-footer a {
+    color:#f1f5f9;
+    text-decoration: none;
+}
+
+.pokedex-footer s:focus-visibli {
+    outline: 2px solid #38bdf8;
+    outline-offset: 2px;
+}

@@ -1,5 +1,6 @@
 import { Header } from "./Header";
 import { PokemonCard } from "./pokemon/PokemonCard";
+import{Footer} from "./rodape/footer";
 
 
 export function App() {
@@ -35,6 +36,7 @@ export function App() {
         <PokemonCard pokemon={squirtle} />
         <PokemonCard pokemon={bulbasaur} />
       </div>
+      <Footer/>
     </>
   );
 }
