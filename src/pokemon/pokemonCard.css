@@ -12,6 +12,7 @@
 .pokemon-card:hover {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 14px 28px rgba(255, 66, 29, 0.25);
+  bo
 }
 
 .card-header {
