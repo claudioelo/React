@@ -8,9 +8,10 @@ export function PokemonCard({ pokemon }) {
   const { id, name, type, image } = pokemon;
   const [isShiny, setIsShiny] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
+  const destaque = isShiny || isFavorite;
 
   return (
-    <article className="pokemon-card">
+    <article className={`pokemon-card ${destaque ? 'card-dourado' : ''}`}>
       <header className="card-header">
         <span className="pokemon-id">{`#${String(id).padStart(3, '0')}`}</span>
         <h2 className="pokemon-name">{name}</h2>

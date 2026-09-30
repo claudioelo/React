@@ -8,11 +8,15 @@
   border: 1px solid rgba(255, 66, 29, 0.1);
   transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
 }
-
+.pokemon-card.card-dourado,
+.pokemon-card.card-dourado:hover {
+  border: 3px solid gold !important;
+  box-shadow: 0 0 12px gold !important;
+}
 .pokemon-card:hover {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 14px 28px rgba(255, 66, 29, 0.25);
-  bo
+  
 }
 
 .card-header {
